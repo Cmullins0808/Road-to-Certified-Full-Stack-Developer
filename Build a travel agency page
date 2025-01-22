@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+      <title>Travel Agency Page</title>    
+      </head>
+   <body>   
+<h1>Travel Destinations</h1>
+  <p>Visit Greece, Switzerland, or Jamaica</p>
+<h2>Packages</h2>
+<p>
+     3 Days/ 2 Nights(Includes resort fee) or 5 Days/ 4 Nights(All-Inclusive)
+</p>
+<ul> 
+  <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+  <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+</ul>  
+<h2>Top Itineraries</h2>
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank">
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="picture of the Collosseom">
+ </a> 
+  <figcaption>The Collosseom</figcaption>
+ </figure>
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank">
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="picture of swiss alps">
+    </a>
+  <figcaption>The Swiss Alps</figcaption>
+</figure>
+<figure>
+  <a href="https://www.freecodecamp.org/learn" target="_blank">
+    <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg " alt="picture of the carribean ocean">
+  </a>
+  <figcaption>The Carribean Ocean</figcaption>
+  
+</figure>
+</body>
+  </html>
