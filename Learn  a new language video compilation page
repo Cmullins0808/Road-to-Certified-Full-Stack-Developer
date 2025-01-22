@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Video Compilation Page</title>
+</head>
+
+<body>
+ <main>
+     <h1>How To Learn a New Language Fast!</h1>
+     <p>Learning a new language can open you up to a world of possibilities. Having a technique will ensure you are more likely to be successful. Many seeking to learn a new language join the military. If you are lucky you may get to leanr a language you have never even heard of!</p>
+     <section>
+      <h2>Anyone can learn a new language.</h2>
+      <p>From ages 3-100, learning a new language is easy and can be fun. Below, you can learn the steps to begin on your language learning journey. This is a beginner friendly lesson for learners of all skill levels and age ranges.</p>
+      <iframe
+         title="learning a new language is easy, actually"
+         height="260"
+         width="400"
+         src="https://youtube.com/embed/E6588DlZW-c?si=qKnAQzqWYfaou6tq"
+      ></iframe>
+     </section>
+     <section>
+       <h2>Learning a new language can open up new career opportunities</h2>
+       <p>Many new language learners are employees seeking to explore new roles within their company or elsewhere. Those seeking to move abroad often learn the languane of the region to enjoy a successful relationship with the locals.</p>
+       <iframe
+          title="4 reasons to learn a new language"
+          width="400"
+          height="260"
+          src="https://youtube.com/embed/VQRjouwKDlU?si=YBH5VLn3WUdKhDeh"
+       ></iframe>
+     </section>
+     <section>
+      <h2>How the professionals learn new languages</h2>
+      <p>When learing a new language is imperative, the security professionals of the U.S. military rely on DLI training!. From Linguist to Special Forces, critial language skills are taught in a rigorous course. These courses are for a select few language learners.</p>
+      <iframe
+         title="How U.S. Military Linguists Learn Languages Fast"
+         height="260"
+         width="400"
+         src="https://youtube.com/embed/Pi5taR18uZ8?si=e2DocW93xWTCdA67"
+      ></iframe>
+     </section>
+ </main>
+</body>
+
+</html>
