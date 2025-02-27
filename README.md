@@ -16,4 +16,5 @@
           font-family: "SF Pro Text", Helvetica, sans-serif;
         }
       </style>
-<a class="libutton" href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=courtney-mullins-certifiednetworksupport" target="_blank">Follow on LinkedIn</a>
+<a  href="https://www.linkedin.com/comm/mynetwork/discovery-see-all?usecase=PEOPLE_FOLLOWS&followMember=courtney-mullins-certifiednetworksupport" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" width="100">
+</a>
