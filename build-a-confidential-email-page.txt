@@ -1,0 +1,66 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confidential Email</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+ <main id="email">
+   <div id="confidential">CONFIDENTIAL</div>
+ <div id="top-secret">TOP SECRET</div>
+
+ <p>Dear Agent <span class="blurred">S'more</span>,</p>
+
+<p>We have an emergency. The secret formula for our <span class="blurred">Mega Marshmallow</span> has been compromised. This formula is what makes our marshmallows the fluffiest and most delicious.</p>
+ <p>We suspect that <span class="blurred">Professor Puff</span>is behind this. He has taken the formula to his hidden laboratory. Your mission is to infiltrate the lab and secure the formula before it's too late.</p>
+ <p>Be sure to keep the lab's location confidential. Any leak of this information could jeopardize the entire operation.</p>
+ </main>
+ </body>
+ </html>
+
+** end of index.html **
+
+** start of styles.css **
+
+#email {
+  padding: 50px;
+  margin-top: 50px;
+  width: 500px;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+#confidential {
+  display: inline-block;
+  padding: 10px;
+  margin-left: 160px;
+  border: red 5px solid;
+  color: red;
+  transform: rotate(-20deg) scale(1.2)
+}
+#top-secret {
+  display: inline-block;
+  padding: 5px;
+   margin-left: 10px;
+  border: red 5px solid;
+  color: red;
+  transform: rotate(20deg);
+  position: relative;
+  top: 280px;
+  left: 200px
+}
+ .blurred {
+  filter: blur(3px);
+  cursor: pointer;
+}
+
+
+}
+
+** end of styles.css **
+
