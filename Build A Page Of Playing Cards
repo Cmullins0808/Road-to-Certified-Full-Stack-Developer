@@ -1,0 +1,146 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Playing Cards</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body> 
+<main id="playing-cards">
+
+  <div class="card">
+   <div class="left">
+     <div class="value">A</div>
+    <div class="suit">♠</div>
+   </div>
+   
+   <div class="middle">
+   <div class="suit large">♠</div>
+  </div>
+  <div class="right">
+  <div class="value">A</div>
+   <div class="suit">♠</div>
+  </div>
+ 
+ </div>
+  
+  <div class="card">
+   <div class="left">
+     <div class="value">2</div>
+    <div class="suit">♣</div>
+   </div>
+   <div class="middle">
+   <div class="suit">♣</div>
+   <div class="suit">♣</div>
+  </div>
+  <div class="right">
+  <div class="value">2</div>
+   <div class="suit">♣</div>
+  </div>
+
+ </div>
+
+ <div class="card">
+   <div class="left">
+     <div class="value red">3</div>
+    <div class="suit red">♥</div>
+   </div>
+   <div class="middle">
+   <div class="suit red ">♥</div>
+    <div class="suit red">♥</div>
+    <div class="suit red">♥</div>
+  </div>
+  <div class="right">
+  <div class="value red">3</div>
+   <div class="suit red">♥</div>
+  </div>
+  
+ </div>
+</main>
+</body>
+
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+body {
+  background: rgb(212, 173, 212);
+  font-family: sans-serif;
+}
+#playing-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+.card {
+  width: 120px;
+  height: 200px;
+  background: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  display:flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding:10px;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+  align-items: center;
+  position: relative;
+}
+.left {
+  top: 10px;
+  left:10px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+ align-self: flex-start;
+ position: absolute;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+  margin-top: 30px;
+  margin_bottom: 30px;
+  align-self: center;
+}
+.right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-self: flex-end;
+  bottom: 10px;
+  right: 10px;
+  transform: rotate(180deg);
+}
+.middle div {
+  text-align: center;
+  font-size:24px;
+}
+.suit {
+  font-size: 20px;
+}
+.value {
+   font-size: 18px;
+   font-weight: bold;
+}
+.large {
+  font-size: 40px;
+}
+.red {
+  color: red;
+}
+
+
+** end of styles.css **
+
